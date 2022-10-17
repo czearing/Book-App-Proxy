@@ -24,6 +24,9 @@ app.use(cors());
 // Routes
 app.use("/api", router);
 
+// Static
+app.use(express.static("public"));
+
 // Start on port
 app.listen(PORT, () => console.log(`Running on ${PORT}`));
 
