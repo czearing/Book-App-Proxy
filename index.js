@@ -26,3 +26,5 @@ app.use("/api", router);
 
 // Start on port
 app.listen(PORT, () => console.log(`Running on ${PORT}`));
+
+export default app;
